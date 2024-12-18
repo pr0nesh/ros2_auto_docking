@@ -1,0 +1,54 @@
+[0.027s] Invoking command in '/home/nagulann01/docking_ws/src/laser_line_extraction/build/laser_line_extraction': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nagulann01/docking_ws/src/laser_line_extraction -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nagulann01/docking_ws/src/laser_line_extraction/install/laser_line_extraction
+[0.805s] -- The C compiler identification is GNU 11.4.0
+[1.357s] -- The CXX compiler identification is GNU 11.4.0
+[1.408s] -- Detecting C compiler ABI info
+[1.681s] -- Detecting C compiler ABI info - done
+[1.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.694s] -- Detecting C compile features
+[1.695s] -- Detecting C compile features - done
+[1.702s] -- Detecting CXX compiler ABI info
+[1.951s] -- Detecting CXX compiler ABI info - done
+[1.967s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.967s] -- Detecting CXX compile features
+[1.968s] -- Detecting CXX compile features - done
+[2.006s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.547s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.681s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.861s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.875s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.905s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.308s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.320s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.832s] -- Looking for pthread.h
+[4.133s] -- Looking for pthread.h - found
+[4.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.390s] -- Found Threads: TRUE  
+[4.826s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.066s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.363s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[5.363s]   By not providing "Findlaser_line_msgs.cmake" in CMAKE_MODULE_PATH this
+[5.363s]   project has asked CMake to find a package configuration file provided by
+[5.363s]   "laser_line_msgs", but CMake did not find one.
+[5.363s] 
+[5.363s]   Could not find a package configuration file provided by "laser_line_msgs"
+[5.363s]   with any of the following names:
+[5.364s] 
+[5.369s]     laser_line_msgsConfig.cmake
+[5.382s]     laser_line_msgs-config.cmake
+[5.382s] 
+[5.382s]   Add the installation prefix of "laser_line_msgs" to CMAKE_PREFIX_PATH or
+[5.383s]   set "laser_line_msgs_DIR" to a directory containing one of the above files.
+[5.383s]   If "laser_line_msgs" provides a separate development package or SDK, be
+[5.383s]   sure it has been installed.
+[5.383s] 
+[5.383s] [0m
+[5.383s] -- Configuring incomplete, errors occurred!
+[5.383s] See also "/home/nagulann01/docking_ws/src/laser_line_extraction/build/laser_line_extraction/CMakeFiles/CMakeOutput.log".
+[5.417s] Invoked command in '/home/nagulann01/docking_ws/src/laser_line_extraction/build/laser_line_extraction' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nagulann01/docking_ws/src/laser_line_extraction -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nagulann01/docking_ws/src/laser_line_extraction/install/laser_line_extraction
